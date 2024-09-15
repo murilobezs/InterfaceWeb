@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css\bootstrap-grid.css">
+  <link rel="stylesheet" href="css\bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="img/logo/favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
+  <title>Um Ano Inesquecível</title>
+</head>
+
+<body>
+  <header class="fixed-top">
+    <nav class="navbar navbar-expand-lg" style="background-color: #F2B885;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/logo/logo1__1_-removebg-preview.png" alt="logo" width="185" height="43">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active font3" aria-current="page" href="index.html">Início</a>
+            </li>
+            <li class="nav-item font3">
+              <a class="nav-link dropitem" href="index.html#book">Livro</a>
+            </li>
+            <li class="nav-item dropdown font3">
+              <a class="nav-link dropdown-toggle font3 dropitem" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Autoras
+              </a>
+              <ul class="dropdown-menu dropstyle" style="background-color: pink;">
+                <li><a class="dropdown-item font1 dropstyle" style="background-color: pink;" href="thalita.html">Thalita
+                    Rebouças</a></li>
+                <li>
+                  <hr class="dropdown-divider divider">
+                </li>
+                <li><a class="dropdown-item font1 dropstyle" style="background-color: pink;" href="paula.html">Paula
+                    Pimenta</a></li>
+                <li>
+                  <hr class="dropdown-divider divider">
+                </li>
+                <li><a class="dropdown-item font1 dropstyle" style="background-color: pink;" href="babi.html">Babi
+                    Dewet</a></li>
+                <li>
+                  <hr class="dropdown-divider divider">
+                </li>
+                <li><a class="dropdown-item font1 dropstyle" style="background-color: pink;" href="bruna.html">Bruna
+                    Vieira</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown font3">
+              <a class="nav-link dropdown-toggle font3 dropitem" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Filmes
+              </a>
+              <ul class="dropdown-menu dropstyle">
+                <li><a class="dropdown-item font1 dropstyle" href="verao.html">Verão</a></li>
+                <li>
+                  <hr class="dropdown-divider divider">
+                </li>
+                <li><a class="dropdown-item font1 dropstyle" href="inverno.html">Inverno</a></li>
+                <li>
+                  <hr class="dropdown-divider divider">
+                </li>
+                <li><a class="dropdown-item font1 dropstyle" href="outono.html">Outono</a></li>
+                <li>
+                  <hr class="dropdown-divider divider">
+                </li>
+                <li><a class="dropdown-item font1 dropstyle" href="primavera.html">Primavera</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2 font1" type="search" placeholder="Pesquisa" aria-label="Pesquisa">
+            <button class="btn btn-outline-success butpesq" type="submit">Pesquisar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div id="carouselExampleIndicators" class="carousel slide carousel-fade" style="margin-top: 4em;" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+        aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/carousel/verao.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/carousel/inverno.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/carousel/outono.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/carousel/primavera.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <main>
+
+    <div class="container80 font1">
+      <section id="book">
+        <div class="row">
+
+          <div class="col-md-6 banners">
+            <a
+              href="https://www.primevideo.com/dp/0HG7UEOO2XGAILXUC05G4ZQTW5?ref_=dvm_pds_tit_br_sw_s_g_mkw_sLz4x0lzCcp-dc&mrntrk=pcrid_672331255169_slid__pgrid_158248229972_pgeo_9100145_x__adext__ptid_kwd-2119702771567&_mkw_sLz4x0lzCcp-dc&mrntrk=pcrid_672331255169_slid__pgrid_158248229972_pgeo_9100145_x__adext__ptid_kwd-2119702771567&gclid=CjwKCAjw7c2pBhAZEiwA88pOF56OYfz1p3Yvo5N_7AqNCyopiA7BNVliC9mJfp3i-3ZRV02k1-gpvRoCzVYQAvD_BwE&gclsrc=aw.ds"><img
+                src="img/bannerindex/banner1.webp" class="rounded mx-auto d-block imgshadow" alt="..." width="100%"></a>
+          </div>
+          <div class="col-md-6">
+            <h1 class="text-center">BEM VINDOS</h1>
+            <p>
+              Dizem por aí que os melhores momentos da vida são vividos na juventude: os primeiros amores, os encontros,
+              as festas, as viagens, as surpresas… E são sempre os instantes inesperados que transformam um dia comum em
+              uma lembrança especial, daquelas que nunca nos deixam.
+              Neste livro inesquecível você irá acompanhar uma viagem de inverno, um outono decisivo, uma paixão que
+              nasce junto com a primavera e um intenso amor de verão.
+            </p>
+            
+          </div>
+
+        </div>
+      </section>
+
+      <section id="cards">
+        <!-- Cards com CSS próprio para separação :) -->
+        <div class="rowcard">
+          <div class="card col-6card imgshadow" style="margin-left: 4em;">
+            <img src="img/card/thalita.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title font3">Thalita Rebouças</h5>
+              <p class="card-text"> Jornalista, escritora, roteirista, repórter e atriz brasileira.</p>
+              <a href="thalita.html" class="btn butpesq">Saiba mais</a>
+            </div>
+          </div>
+          <div class="card col-6card imgshadow">
+            <img src="img/card/paula.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title font3">Paula Pimenta</h5>
+              <p class="card-text">Escritora da conhecida série de livros "Fazendo Meu Filme".</p>
+              <a href="paula.html" class="btn butpesq">Saiba mais</a>
+            </div>
+          </div>
+          <div class="card col-6card imgshadow">
+            <img src="img/card/babi-dewet.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title font3">Babi Dewet</h5>
+              <p class="card-text">Carioca, formada em Cinema, que encontrou seu amor pela escrita em 2001.</p>
+              <a href="babi.html" class="btn butpesq">Saiba mais</a>
+            </div>
+          </div>
+          <div class="card col-6card imgshadow">
+            <img src="img/card/bruna.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title font3">Bruna Vieira</h5>
+              <p class="card-text">Empresária, comunicadora, e escritora. Já publicou mais de 9 livros.</p>
+              <a href="bruna.html" class="btn butpesq">Saiba mais</a>
+            </div>
+          </div>
+          <!-- Cards com CSS próprio para separação :) -->
+      </section>
+
+      <section id="livros">
+
+        <div class="banners">
+          <a
+            href="https://www.primevideo.com/dp/0HG7UEOO2XGAILXUC05G4ZQTW5?ref_=dvm_pds_tit_br_sw_s_g_mkw_s6ZOxpvWq75-dc&mrntrk=pcrid_672331255907_slid__pgrid_158248308612_pgeo_9100145_x__adext__ptid_kwd-2119702775447&_mkw_s6ZOxpvWq75-dc&mrntrk=pcrid_672331255907_slid__pgrid_158248308612_pgeo_9100145_x__adext__ptid_kwd-2119702775447&gclid=Cj0KCQiAuqKqBhDxARIsAFZELmLqiMg5M0LP5nq0HDN_-DAurLYzHOoMKNZtx3dakGA-UUCp6hQFavcaAt-xEALw_wcB&gclsrc=aw.ds"><img
+              src="img/bannerindex/verao1.png" class="rounded mx-auto d-block imgshadow" alt="..." width="80%"></a>
+        </div>
+        <div class="text-center">
+          <h1>Verão</h1>
+          <p>Para conseguir estudar moda na tão sonhada Paris, uma jovem do interior que odeia o
+            Carnaval viaja até o Rio de Janeiro para tentar ganhar a ajuda da estilista mais famosa do Brasil. Com a
+            missão de se infiltrar no time de costura da Portela, ela vai descobrir que o Carnaval dura só uma semana,
+            mas uma história de amor pode mudar toda sua vida.</p>
+        </div>
+
+        <div class="banners">
+          <a
+            href="https://www.primevideo.com/detail/0O6H1GHU4PXG0XCYW9IX14COEN/ref=atv_dp_amz_c_TS8274d9_1_2?jic=16%7CCgNhbGwSA2FsbA%3D%3D"><img
+              src="img/bannerindex/invernobn.jpg" class="rounded mx-auto d-block imgshadow" alt="..." width="80%"></a>
+        </div>
+        <div class="text-center">
+          <h1>Inverno</h1>
+          <p>Ao invés de participar da viagem de formatura com as amigas, Mabel é forçada a viajar
+            com seus pais para uma estação de ski no Chile. O que ela não esperava era encontrar um grupo secreto de
+            amigos e um possível novo amor.</p>
+        </div>
+
+        <div class="banners">
+          <a
+            href="https://www.primevideo.com/detail/0JJK3XJ7QLC18GFI7RF3P1LJTI/ref=atv_dp_amz_c_TS8274d9_1_3?jic=16%7CCgNhbGwSA2FsbA%3D%3D"><img
+              src="img/bannerindex/outonobn2.png" class="rounded mx-auto d-block imgshadow" width="80%" alt="..."></a>
+        </div>
+        <div class="text-center">
+          <h1>Outono</h1>
+          <p >Uma ambiciosa estudante de Direito que odeia música precisa traçar um plano perfeito para ser contratada no
+            escritório onde faz estágio – até que ela conhece um músico encantador que remexe a sua vida. Enquanto vive
+            seu primeiro amor, ela precisa enfrentar o próprio passado e decidir o que é mais importante: fazer o que
+            ama ou aprender a amar o que faz.</p>
+        </div>
+
+        <div class="banners">
+          <a
+            href="https://www.primevideo.com/detail/0PJZ2PBXCMZL1N4B6AN3TKHHOT/ref=atv_dp_amz_c_TS8274d9_1_3?jic=16%7CCgNhbGwSA2FsbA%3D%3D"><img
+              src="img/bannerindex/primaverabn.jpg" class="rounded mx-auto d-block imgshadow" width="80%" alt="..."></a>
+        </div>
+        <div class="text-center">
+          <h1>Primavera</h1>
+          <p>Prestes a ser reprovada em matemática – a matéria que mais odeia, Jasmine tem que fazer aulas de reforço
+            com um monitor fofo, mas que baseia sua vida em números. Em meio à pressão da família e um amor arriscado,
+            ela precisará superar seus medos e limitações para seguir o verdadeiro sonho: ser artista.</p>
+        </div>
+
+      </section>
+
+      <section id="elenco">
+        <div class="text-center">
+          <h1 class="font2">
+            Elenco
+          </h1>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-12 mb-4 mb-lg-0 banners">
+            <img src="img/elenco/liviainhundes.jpg" class="w-100 shadow-1-strong rounded mb-4 imgshadow" alt="..." />
+            <h4 class="text-center font2">Lívia Inhudes</h4>
+            <h5 class="text-center">como "Inha"</h5>
+
+            <img src="img/elenco/meninoverao.jpg" class="w-100 shadow-1-strong rounded mb-4 imgshadow" alt="..." />
+            <h4 class="text-center font2">Micael Borges</h4>
+            <h5 class="text-center">como "Guima"</h5>
+          </div>
+
+          <div class="col-lg-3 mb-4 mb-lg-0 banners">
+            <img src="img/elenco/gabz.jpg" class="w-100 shadow-1-strong rounded mb-4 imgshadow" alt="..." />
+            <h4 class="text-center font2">Gabz</h4>
+            <h5 class="text-center">como "Anna Júlia"</h5>
+
+            <img src="img/elenco/meninoutono.jpg" class="w-100 shadow-1-strong rounded mb-4 imgshadow" alt="..." />
+            <h4 class="text-center font2">Lucas Leto</h4>
+            <h5 class="text-center">como "João Paulo"</h5>
+          </div>
+
+          <div class="col-lg-3 mb-4 mb-lg-0 banners">
+            <img src="img/elenco/maitepadilha.jpg" class="w-100 shadow-1-strong rounded mb-4 imgshadow" alt="..." />
+            <h4 class="text-center font2">Maitê Padilha</h4>
+            <h5 class="text-center">como "Mabel"</h5>
+            <img src="img/elenco/meninverno.jpg" class="w-100 shadow-1-strong rounded mb-4 imgshadow" alt="..." />
+            <h4 class="text-center font2">Michel Joelsas</h4>
+            <h5 class="text-center">como "Benjamín"</h5>
+          </div>
+
+          <div class="col-lg-3 mb-4 mb-lg-0 banners">
+            <img src="img/elenco/liviasilva.jpg" class="w-100 shadow-1-strong rounded mb-4 imgshadow" alt="..." />
+            <h4 class="text-center font2">Lívia Silva</h4>
+            <h5 class="text-center">como "Jasmine"</h5>
+            <img src="img/elenco/meninoprimavera.jpg" class="w-100 shadow-1-strong rounded mb-4 imgshadow" alt="..." />
+            <h4 class="text-center font2">Ronald Sotto</h4>
+            <h5 class="text-center">como "Davi"</h5>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+
+  <script src="js\bootstrap.bundle.js"></script>
+  <footer class="bg-dark text-center text-white">
+    </div>
+    <div class="text-center p-3" style="background-color: #F2B885;">
+      Copyright© 2023 Prime Video. All Rights Reserved
+    </div>
+  </footer>
+</body>
+
+</html>
