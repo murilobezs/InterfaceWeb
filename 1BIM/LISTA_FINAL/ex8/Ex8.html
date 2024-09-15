@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Calcule Bhaskara!</title>
+</head>
+<body>
+    <main id="container">
+        <section class="box-style">
+            <h1>RESOLVENDO BHASKARA</h1>
+            <p>Considerando uma equação no formato ax² + bx + c = 0, aperte o botão abaixo para calcular o valor de Δ.</p>
+            <p>Lembre-se: Δ = b² - 4 * a * c</p>
+            <button style="margin-left: 18rem;" id="calc" onclick="calc()">CALCULAR</button>
+            <p id="formula"></p>
+            <p id="calculo"></p>
+            <p id="resultado"></p>
+            <button style="margin-left: 18rem;" class="hidden" id="botaoNext"><a href="../ex1/Ex1.html">VOLTAR PARA O PRIMEIRO!!</a></button>
+        </section>
+    </main>
+    
+    <script>
+    function calc(){
+        var A = parseFloat(prompt('Digite o valor de A: '));
+        var B = parseFloat(prompt('Digite o valor de B: '));
+        var C = parseFloat(prompt('Digite o valor de C: '));
+        var RESULT = (B * B) - 4 * (A) * (C);
+
+        var formulaElement = document.getElementById("formula");
+        var calculoElement = document.getElementById("calculo");
+        var resultadoElement = document.getElementById("resultado");
+        var botaoNext = document.getElementById("botaoNext");
+
+        formulaElement.innerHTML = "A equação é: " + A + "x² + " + B + "x + " + C + " = 0";
+        calculoElement.innerHTML = "O cálculo realizado será Δ = " + B + "² - 4 * " + A + " * " + C;
+        resultadoElement.innerHTML = "O valor calculado é: Δ = " + RESULT;
+
+        botaoNext.classList.remove("hidden");
+    }
+    </script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AULA 1</title>
+    <style>
+        body{
+            background-color: whitesmoke;
+            color: paleturquoise;
+            font: normal 15pt Arial;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá mundo!</h1>
+    <p>livre da maldição!!</p>
+
+<!-- variaveis: var == global; let ==> local; const ==> constante  -->
+
+<!-- var == global
+let ==> local
+const ==> constante -->
+
+<!-- conversão de valores 
+parseInt() p/ num inteiro
+parseFloat() p/ num decimal
+parseString() p/ 
+-->
+
+<script>
+    // alert('Minha primeira mensagem!')
+    // prompt('Digite seu nome: ')
+    // confirm('Deseja realmente sair?')
+
+    var nome = prompt('Digite seu nome: ')
+    console.log('O nome é: ' , nome)    /* '+' ou ','' serve para a mesma coisa; preferencia ao '+' */
+    console.log(typeof(nome))
+    alert('Bem vindo '+ nome)  /* juntar variavel e letra é concatenar */
+
+    var idade = parseInt(prompt('Digite sua idade: '))
+    console.log('A idade é: ' , idade)   
+    console.log(typeof(idade))
+    alert('A idade é '+ idade)
+
+</script>
+
+</body>
+</html>

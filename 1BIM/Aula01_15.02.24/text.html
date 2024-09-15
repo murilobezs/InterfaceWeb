@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Working with texts</title>
+    <style>
+        body{
+            background-color: peachpuff;
+            color: palevioletred;
+            font: normal 15pt Arial;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    
+    <script>
+        var nome = 'Murilo Bezerra'
+
+        //OBTENDO O NÚMERO DE CARACTERES EM UMA VARIÁVEL
+        console.log(nome.length)
+
+         //Deixando tudo maiúsculo 
+        console.log(nome.toUpperCase())
+
+        //Deixando tudo minusculo
+        console.log(nome.toLowerCase())
+
+        console.log(nome)
+
+    var nome = prompt('Digite seu nome: ')
+    console.log('O nome é: ' , nome) 
+    console.log('O total de caracteres no nome é: ' + nome.length)
+    console.log('O nome em letras maiúscula é: ' + nome.toUpperCase())
+    console.log('O nome em letras minusculas é: ' + nome.toLowerCase())
+
+    document.writeln('<p>O nome é: ' , nome)
+    document.writeln('<p>O total de caracteres no nome é: ' + nome.length)
+    document.writeln('<p>O nome em letras maiúscula é: ' + nome.toUpperCase())
+    document.writeln('<p>O nome em letras minusculas é: ' + nome.toLowerCase())
+
+    </script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        body{
+            background-color: white;
+            color: pink;
+            font: normal 15pt Arial;
+            text-align: center;
+        }
+        h1{
+            text-decoration: overline;
+            font: 20pt italic;
+        }
+    </style>
+</head>
+<body>
+    <h1>EXIBIR OPERAÇÕES COM DOIS NÚMEROS</h1>
+
+
+    <script>
+        
+        var num1 = parseFloat(prompt('Digite o primeiro número:'))
+        console.log('O primeiro número: ' , num1)   
+        console.log(typeof(num1))
+    
+        var num2 = parseFloat(prompt('Digite o segundo número: '))
+        console.log('O segundo número: ' , num2)   
+        console.log(typeof(num2))
+    
+        // mostrando na tela do navegador//
+        document.writeln('<p>O primeiro número é ' + num1 + '</p>')
+        document.writeln('<p>O segundo número é ' + num2 + '</p>')
+        document.writeln('<p>A soma é ' + (num1 + num2) + '</p>')
+        document.writeln('<p>A subtração é '+ (num1-num2) + '</p>')
+        document.writeln('<p>A multiplicação é '+ (num1*num2) + '</p>')
+        document.writeln('<p>A divisão é '+ (num1/num2) + '</p>')
+    
+        //interpolação de valores//
+        //document.write(`\n Num1 = ${num1} e Num2 =${num2}`)
+    
+        /* alert('O primeiro número é: ' + num1 + ' e o segundo número é: ' + num2 +
+        ('\nA soma é ' + (num1 + num2)) +
+        ('\nA subtração é '+ (num1-num2)) +
+        ('\nA multiplicação é '+ (num1*num2)) +
+        ('\nA divisão é '+ (num1/num2))) */
+        
+        </script>
+    
+</body>
+</html>

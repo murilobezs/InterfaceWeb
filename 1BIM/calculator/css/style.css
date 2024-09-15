@@ -1,0 +1,95 @@
+body,
+main{
+    background-color: #2D1040;
+}
+
+.container{
+    width: 60%;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #6B2D73;
+    box-shadow: 0px 0px 3rem rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 10em;
+    align-items: center;
+    justify-content: center
+}
+
+h1{
+    color: whitesmoke;
+    text-align: center;
+    font-family: "Micro 5", sans-serif;
+    font-size: 2.5em;
+    font-style: normal;
+    padding: 0.5em;
+}
+
+h2{
+    color: whitesmoke;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1.5em;
+    font-style: normal;
+    padding: 0.5em;
+}
+
+p{
+    color: azure;
+    padding: 0.5em;
+    font-family: 'Lemon/Milk', sans-serif;
+    
+}
+
+.enter{
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+input{
+    background-color: orchid;
+    color: white;
+    border-radius: 5em;
+    width: 80%;
+    padding: 0.5rem 0;
+    font-size: 1rem;
+    font-family: 'Lemon/Milk', sans-serif;
+    border: none;
+    outline: none;
+}
+
+#calculate{
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: orchid;
+    color: #f8fafc;
+    padding: 0.5rem 0.5rem;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: color 0.5s;
+}
+
+#calculate :hover{
+    color: gainsboro;
+}
+
+@media screen and (max-width: 600px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .col-6 {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    .col-6{
+        width: 50%;
+    }
+}

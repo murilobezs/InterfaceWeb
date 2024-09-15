@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: auto;
+    height: auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    margin: auto;
+}
+
+main {
+    min-width: 960px;
+    min-height: 100vh;
+    margin: auto;
+    padding: 2rem;
+    text-align: center;
+    width: 100%;
+}
+
+.titulo{ 
+    font-size: 50px;
+    text-align: center;
+    background-color: black;
+    margin-left: 3%;
+    margin-right: 3%;
+    text-shadow: 2px 2px 4px #ededed;
+    margin-bottom: 2%;
+}
+/* botoes */
+button {
+    border: 1.5px solid whitesmoke ;
+    border-radius: 10px;
+    padding: 0.65rem;
+    cursor: pointer;
+    width: 100px;
+    padding: 0.8%;
+    text-align: center;
+    display: inline;
+    margin-bottom: 5%;
+    margin-left: 2%;
+}
+
+img{
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 10px 10px 66px -15px rgba(0,0,0,0.75);
+}
+section {
+    width: 100%;
+    margin: auto;
+}
+h1, h2, article {
+    margin-bottom: 1rem;
+    padding-bottom: 2%;
+}
+
+/* botao */
+#btlight {
+    background: #ededed;
+    color: #121212;
+    border: 2px solid black ;
+    box-shadow: 10px 10px 66px -15px rgba(0,0,0,0.75);
+}
+#btdark {
+    background-color: #263238;
+    color: #fff;
+    border: 2px solid whitesmoke ;
+}
+#btpink {
+    background-color: #fc6998;
+    color: #121212;
+    border: 2px solid #fa3e79 ;
+}
+#btblue{
+    background-color: #7CB9E8;
+    color: white;
+    border: 2px solid #72A0C1;
+}
+#btyellow{
+    background-color: #FFC72C;
+    color: black;
+    border: 2px solid #FEBE10;
+}
+#btred{
+    background-color: #bb0b0b;
+    color: rgb(255, 255, 255);
+    border: 2px solid #920d0d ;
+}
+#btgreen{
+    background-color: #17B169;
+    color: black;
+    border: 2px solid #018749 ;
+}
+
+/* Estilos para serem usados via JS */
+.light {
+    background: #eeeaea;
+    color: #191919;
+}
+.dark {
+    background: #222;
+    color: #fff;
+}
+.pink{
+    background-color: #fc6998;
+    color: #fa3e79;
+}
+.blue{
+    background: #7CB9E8;
+    color: #00308F;
+}
+.yellow {
+    background: #FFC72C;
+    color: #F0E68C;
+}
+.green{
+    color: #69e01a;
+    background-color: #17B169;
+    border: 2px solid #018749 ;
+}
+.red{
+    background-color: #bb0b0b;
+    color: #920d0d;
+}
+/* articles com a class box */
+.box {
+    padding: 0.625rem;
+    border-radius: 8px;
+}
