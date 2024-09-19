@@ -5,7 +5,7 @@
 ## https://murilobezs.github.io/InterfaceWeb/um_ano_inesquecivel
 ## https://murilobezs.github.io/InterfaceWeb/taylorswift
 ## https://murilobezs.github.io/InterfaceWeb/MarioGame
-## https://murilobezs.github.io/InterfaceWeb/Jquery%Validation
+## https://murilobezs.github.io/InterfaceWeb/JQuery%Validation
 ## https://murilobezs.github.io/InterfaceWeb/1BIM/IMC
 ## https://murilobezs.github.io/InterfaceWeb/1BIM/LISTA_FINAL
 ## https://murilobezs.github.io/InterfaceWeb/1BIM/calculator
